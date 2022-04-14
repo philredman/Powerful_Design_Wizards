@@ -1,0 +1,222 @@
+:root {
+    
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(96, 61, 152) 0%, rgb(33, 28, 44) 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    margin-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menuItem {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+.endButton {
+    margin: 10px 10px 10px 50px;
+    width: 220px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(76, 112, 205);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 300ms;
+}
+
+.endButton:hover {
+    background-color: rgb(46, 155, 128);
+}
+
+#logo {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    margin: 20px;
+    height: 70px;
+}
+
+.banner {
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.32) 0%, rgba(22, 19, 28, 0) 100%);
+    width: 75vw;
+    height: 300px;
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 40px;
+    width: 400px;
+}
+
+.bannerH1 {
+    margin: 0px;
+    font-size: 40px;
+    color: white;
+}
+.bannerText {
+    margin: 25px 0px;
+    font-size: 15px;
+    color: white;
+}
+.containerButton {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(76, 112, 205);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 300ms;
+}
+
+.containerButton:hover {
+    background-color: rgb(46, 155, 128);
+}
+
+.containerButton2 {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(76, 113, 205, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#vr {
+    border-radius: 10px;
+    margin: 20px;
+    height: 260px;
+}
+
+.rowOne {
+    margin: 100px 0px;
+    display: flex;
+}
+
+.rowOneImages {
+    margin: auto;
+    display: flex;
+}
+
+.image1 {
+    margin-left: -150px;
+    margin-top: 50px;
+    float: left;
+    height: 250px;
+    z-index: 2;
+}
+.image11 {
+    margin-top: 100px;
+    float: left;
+    height: 200px;
+    z-index: 1;
+}
+.image2 {
+    margin-left: -170px;
+    float: right;
+    height: 200px;
+    z-index: 1;
+}
+.image22 {
+    margin-left: -60px;
+    margin-top: 30px;
+    float: right;
+    height: 200px;
+    z-index: 0;
+}
+
+.textBlockr1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px ;
+    width: 380px;
+}
+
+.textBlockr1 h2 {
+    margin: 15px 0px;
+    font-size: 25px;
+}
+.textBlockr1 p {
+    margin: 15px 0px;
+}
+
+.findNearby {
+    color: rgb(73, 208, 163);
+}
+
+.rowTwo {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.textBlockr2 {
+    margin: 100px;
+    color: white;
+    width: 380px;
+}
+
+.textBlockr2 p {
+    margin: 30px 0px;
+}
+
+.bottomImage {
+    margin-right: -250px;
+    width: 850px;
+    margin-bottom: auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(28, 28, 28);
+}
+
+.footerButton {
+    width: 130px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
